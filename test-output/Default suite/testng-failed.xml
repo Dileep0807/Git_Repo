@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ListnersWithoutBaseClass.ScreenshotTest1">
+      <class name="Listeners.ScreenshotTest">
         <methods>
-          <include name="initialization"/>
+          <include name="TakeScreenShot2"/>
+          <include name="setup"/>
           <include name="TakeScreenShot1"/>
           <include name="tearDown"/>
-          <include name="TakeScreenShot2"/>
         </methods>
-      </class> <!-- ListnersWithoutBaseClass.ScreenshotTest1 -->
+      </class> <!-- Listeners.ScreenshotTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

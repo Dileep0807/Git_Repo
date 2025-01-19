@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T23:55:38 IST" name="Default suite" finished-at="2024-10-09T23:55:53 IST" duration-ms="14339">
+  <suite started-at="2025-01-19T15:52:35 IST" name="Suite" finished-at="2025-01-19T15:52:43 IST" duration-ms="7598">
     <groups>
     </groups>
-    <test started-at="2024-10-09T23:55:38 IST" name="Default test" finished-at="2024-10-09T23:55:53 IST" duration-ms="14339">
-      <class name="ListnersWithoutBaseClass.ScreenshotTest1">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:38 IST" name="initialization" finished-at="2024-10-09T23:55:49 IST" duration-ms="10563" status="PASS">
+    <test started-at="2025-01-19T15:52:35 IST" name="Test" finished-at="2025-01-19T15:52:43 IST" duration-ms="7598">
+      <class name="Listeners.ScreenshotTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:35 IST" name="setup" finished-at="2025-01-19T15:52:39 IST" duration-ms="3528" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TakeScreenShot1()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:49 IST" name="TakeScreenShot1" finished-at="2024-10-09T23:55:49 IST" duration-ms="20" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="TakeScreenShot1()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:39 IST" name="TakeScreenShot1" finished-at="2025-01-19T15:52:39 IST" duration-ms="18" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -25,7 +25,7 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:1067)
 at org.testng.Assert.assertEquals(Assert.java:1031)
 at org.testng.Assert.assertEquals(Assert.java:1077)
-at ListnersWithoutBaseClass.ScreenshotTest1.TakeScreenShot1(ScreenshotTest1.java:40)
+at Listeners.ScreenshotTest.TakeScreenShot1(ScreenshotTest.java:29)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -50,23 +50,23 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TakeScreenShot1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:49 IST" name="tearDown" finished-at="2024-10-09T23:55:50 IST" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:39 IST" name="tearDown" finished-at="2025-01-19T15:52:39 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:50 IST" name="initialization" finished-at="2024-10-09T23:55:52 IST" duration-ms="2241" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:39 IST" name="setup" finished-at="2025-01-19T15:52:42 IST" duration-ms="2500" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TakeScreenShot2()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:52 IST" name="TakeScreenShot2" finished-at="2024-10-09T23:55:52 IST" duration-ms="2" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="TakeScreenShot2()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:42 IST" name="TakeScreenShot2" finished-at="2025-01-19T15:52:42 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -80,7 +80,7 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:1067)
 at org.testng.Assert.assertEquals(Assert.java:1031)
 at org.testng.Assert.assertEquals(Assert.java:1077)
-at ListnersWithoutBaseClass.ScreenshotTest1.TakeScreenShot2(ScreenshotTest1.java:46)
+at Listeners.ScreenshotTest.TakeScreenShot2(ScreenshotTest.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -105,19 +105,19 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TakeScreenShot2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ListnersWithoutBaseClass.ScreenshotTest1@10e31a9a]" started-at="2024-10-09T23:55:52 IST" name="tearDown" finished-at="2024-10-09T23:55:53 IST" duration-ms="476" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Listeners.ScreenshotTest@2a4fb17b]" started-at="2025-01-19T15:52:42 IST" name="tearDown" finished-at="2025-01-19T15:52:43 IST" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ListnersWithoutBaseClass.ScreenshotTest1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Listeners.ScreenshotTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
