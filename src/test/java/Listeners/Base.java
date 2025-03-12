@@ -17,7 +17,9 @@ public class Base {
 	{
 		driver = new ChromeDriver();
                  
-		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--start-maximized");  
+		    
 		driver.get("https://www.google.com/");
 	}
 	
